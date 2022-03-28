@@ -21,7 +21,7 @@ const Login=()=>{
     }
 
     return(
-        <div className="login">
+        <div className="userLoginDetails">
             <form className="login_form" onSubmit={(e)=>handleSubmit(e)}>
              <h1>Login Here</h1>
              <input type="name" placeholder="Name" value={name} onChange={(e)=>setName(e.target.value)}></input>
